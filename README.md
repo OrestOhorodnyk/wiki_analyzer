@@ -10,6 +10,6 @@ curl -s -H 'Accept: application/json'  https://stream.wikimedia.org/v2/stream/re
 https://doc.akka.io/docs/alpakka/current/sse.html
 
 ## Dummy endpoints:
-curl http://localhost:8080/user-statistic
-curl http://localhost:8080/bar
-curl http://localhost:8080/foo
+* curl http://localhost:8080/user-statistic
+* curl http://localhost:8080/bar
+* curl http://localhost:8080/foo
