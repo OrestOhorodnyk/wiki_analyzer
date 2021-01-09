@@ -22,8 +22,7 @@ lazy val root = (project in file(".")).
       "com.typesafe.akka" %% "akka-http-spray-json"     % akkaHttpVersion,
       "com.typesafe.akka" %% "akka-actor-typed"         % akkaVersion,
       "com.typesafe.akka" %% "akka-stream"              % akkaVersion,
-      "ch.qos.logback"    % "logback-classic"           % "1.2.3",
-
+      "com.lightbend.akka" %% "akka-stream-alpakka-sse" % "2.0.2",
 
       "org.scala-lang.modules" %% "scala-async" % "0.10.0" ,
       "org.scala-lang" % "scala-reflect" % scalaVersion.value % Provided ,
