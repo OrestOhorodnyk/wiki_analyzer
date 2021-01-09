@@ -2,7 +2,7 @@ name := "wiki_analyzer"
 
 version := "0.1"
 
-scalaVersion := "2.13.4"
+scalaVersion := "2.13.3"
 
 lazy val akkaHttpVersion = "10.2.2"
 lazy val akkaVersion    = "2.6.10"
